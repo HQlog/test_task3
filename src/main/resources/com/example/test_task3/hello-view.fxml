@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="847.0" style="-fx-background-color: #F4A900; -fx-background-radius: 6;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test_task3.HelloController">
+   <children>
+      <AnchorPane layoutX="3.0" layoutY="3.0" prefHeight="534.0" prefWidth="826.0" style="-fx-background-color: #006633; -fx-background-radius: 6;" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
+         <children>
+            <Label layoutX="75.0" layoutY="43.0" prefHeight="46.0" prefWidth="317.0" text="Верю не Верю" textAlignment="CENTER" textFill="#f4a900">
+               <font>
+                  <Font name="Arial Black" size="32.0" />
+               </font>
+            </Label>
+            <Button fx:id="startButton" layoutX="244.0" layoutY="427.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="134.0" style="-fx-background-color: #40cfff; -fx-border-radius: 3; -fx-border-color: silver;" text="Играть">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+            <Label layoutX="165.0" layoutY="358.0" prefHeight="47.0" prefWidth="292.0" text="Что бы начать играть" textFill="#f4a900">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

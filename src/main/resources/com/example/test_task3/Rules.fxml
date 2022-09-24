@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F4A900; -fx-background-radius: 6;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.test_task3.RulesController">
+    <children>
+        <AnchorPane layoutX="3.0" layoutY="3.0" prefHeight="534.0" prefWidth="826.0" style="-fx-background-color: #006633; -fx-background-radius: 6;" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="3.0">
+            <children>
+                <Label layoutX="99.0" layoutY="33.0" prefHeight="26.0" prefWidth="166.0" text="правила " textFill="#f4a900">
+                    <font>
+                        <Font name="Arial Black" size="29.0" />
+                    </font>
+                </Label>
+                <TextArea fx:id="rules" editable="false" layoutX="32.0" layoutY="115.0" prefHeight="286.0" prefWidth="777.0" style="-fx-background-color: #F4A900; -fx-border-radius: 6; -fx-border-radius: 6;" text="Верю - не верю - карточная игра, цель которой избавиться от всех карт на руках.&#10;Основное отличие этой игры состоит в том, что нужно либо обманывать соперников, либо угадывать обманывают они вас или нет.&#10;&#10;Правила:&#10;&#10; 1. Вся колода карт раздаётся игрокам поровну, можно играть колодой 36 карт, либо же 52.&#10;&#10; 2. По жребию выбирается первый человек, который будет «ходить».&#10;&#10; 3. Тот, кто ходит первый, должен положить карту, или же карты «рубашкой» вверх,&#10; и назвать ее достоинство - игрок может назвать честно, а может соврать, например «1 девятка».&#10;&#10; 4. Есть несколько вариантов для следующего игрока после ходящего: &#10;&#10;а) Следующий игрок может сказать «верю», если там действительно 1 девятка, карты уходят в бито.&#10;&#10;б) Так же игрок может сказать «не верю», если там 1 девятка, и человек не поверил, то он забирает эти карты,&#10; а если же там и не было карты с таким достоинством, то ходящий забирает эту карту обратно себе.&#10;&#10;в) Он может положить ещё одну или несколько карт, и назвать то же достоинство, например «ещё девятка».&#10;Тогда ход перейдёт к следующему игроку, сидящему рядом.&#10;&#10;5. «Тузы» нужно скидывать незаметно, их нельзя называть.&#10;&#10;6. Проигравшим считается последний игрок, у которого остались карты." wrapText="true" />
+            <Label layoutX="715.0" layoutY="33.0" prefHeight="23.0" prefWidth="122.0" text="что бы выйти" textFill="#f4a900">
+               <font>
+                  <Font name="Arial Black" size="15.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="753.0" layoutY="10.0" startX="76.0" startY="23.000003814697266" stroke="#f4a900" />
+            <Line endX="163.5999755859375" endY="-17.60000228881836" layoutX="675.0" layoutY="33.0" startX="178.7071533203125" startY="-23.707103729248047" stroke="#f4a900" />
+            <Line endX="185.4000244140625" endY="-52.60000228881836" layoutX="662.0" layoutY="76.0" startX="192.414306640625" startY="-67.41421508789062" stroke="#f4a900" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
